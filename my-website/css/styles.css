@@ -149,3 +149,16 @@ nav li {
 .project li {
     margin: 20px;
 }
+
+/* About styles */
+#about {
+    background-color: #f1f1f1;
+    margin: 0 2%;
+    border-radius: 10px;
+}
+
+#about p {
+    font-size: 130%;
+    text-align: justify;
+    margin-bottom: 0;
+}
