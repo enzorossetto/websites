@@ -197,3 +197,35 @@ nav li {
 #certifications .link-background a {
     padding: 20px;
 }
+
+/* Learning styles */
+.studying {
+    width: 35%;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.studying img {
+    width: 100px;
+}
+
+.progress {
+    width: 80%;
+    margin-top: 20px;
+    padding: 5px;
+    border: 3px solid #141e29;
+    border-radius: 10px;
+}
+
+.progress-percentage {
+    color: #000000;
+    background-color: #ffd700;
+    height: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
