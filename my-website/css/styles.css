@@ -15,6 +15,7 @@ body {
 .unlisted {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .list-item {
@@ -51,13 +52,11 @@ body {
 }
 
 .link-background {
-    margin: 10px;
-}
-
-.link-background a {
-    background-color: #141e29;
+    display: inline-block;
     border-radius: 10px;
+    background-color: #141e29;
     padding: 10px;
+    margin: 0 auto;
 }
 
 section {
@@ -192,6 +191,7 @@ nav li {
 
 #certifications .link-background {
     margin-top: 100px;
+    padding: 20px;
 }
 
 #certifications .link-background a {
@@ -225,9 +225,6 @@ nav li {
     background-color: #ffd700;
     height: 20px;
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 /* Support styles */
@@ -280,4 +277,91 @@ footer {
 
 footer div {
     margin-bottom: 40px;
+}
+
+/*Mobile and tablets*/
+@media screen and (max-width: 768px) {
+
+    /* General styles */
+    .link-type-1 {
+        text-decoration: underline;
+    }
+
+    .link-type-2 {
+        text-decoration: underline;
+    }
+
+    .link-type-2:hover {
+        background-color: rgba(255, 215, 0, 0);
+        color: #ffd700;
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    /* Header styles */
+    header {
+        flex-flow: column wrap;
+    }
+
+    header h2 {
+        font-size: 120%;
+        text-align: center;
+    }
+
+    header img {
+        display: block;
+        width: 80px;
+        margin: 0 auto 20px auto;
+    }
+
+    /* Hero styles */
+    #hero {
+        margin-bottom: 0;
+    }
+
+    #hero h1 {
+        font-size: 170%;
+        margin-top: 0;
+    }
+
+    #hero p {
+        font-size: 100%
+    }
+
+    /* About styles */
+    #about {
+        margin: 0 5%;
+    }
+
+    /* Certifications styles */
+    #certifications .link-background {
+        margin-top: 10px;
+        padding: 16px 12px;
+    }
+
+    #certifications .link-background a {
+        padding: 0;
+    }
+
+    /* Learning styles */
+    .progress {
+        width: 90%;
+    }
+
+    /* Support styles */
+    #support p {
+        text-align: justify;
+    }
+
+    /* Footer styles */
+    #contact .unlisted {
+        display: block;
+    }
+
+    #contact .unlisted li {
+        margin-bottom: 20px;
+    }
 }
