@@ -96,3 +96,26 @@ nav ul {
 nav li {
     display: inline-block;
 }
+
+/* Hero styles */
+#hero {
+    margin-top: 0;
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20% 10%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h1 {
+    font-size: 270%;
+}
+
+#hero p {
+    font-size: 160%;
+    font-weight: bold;
+}
