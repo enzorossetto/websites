@@ -11,7 +11,7 @@ body {
     font-size: 16px;
 }
 
-/* General styles*/
+/* General styles */
 .unlisted {
     margin: 0;
     padding: 0;
@@ -71,7 +71,7 @@ section {
     margin: 40px 0;
 }
 
-/*Header styles*/
+/*Header styles */
 header {
     background-color: #141e29;
     color: #ffffff;
@@ -118,4 +118,34 @@ nav li {
 #hero p {
     font-size: 160%;
     font-weight: bold;
+}
+
+/* Projects styles */
+.project {
+    width: 27%;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.project ul {
+    margin: 20px;
+}
+
+.project li {
+    margin: 20px;
+}
+
+.more-projects {
+    margin: 10px;
+}
+
+.more-projects a {
+    background-color: #141e29;
+    border-radius: 10px;
+    padding: 10px;
 }
