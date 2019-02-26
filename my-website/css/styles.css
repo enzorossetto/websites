@@ -167,4 +167,33 @@ nav li {
 }
 
 /* Certifications styles */
-.certification {}
+.certification {
+    width: 20%;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.certification-description {
+    text-align: left;
+}
+
+.certification a {
+    color: #000000;
+    font-weight: lighter;
+}
+
+.icon {
+    padding-right: 10px;
+    width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+#certifications .link-background {
+    margin-top: 100px;
+}
+
+#certifications .link-background a {
+    padding: 20px;
+}
