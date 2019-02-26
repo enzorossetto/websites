@@ -70,3 +70,29 @@ section {
     justify-content: space-around;
     margin: 40px 0;
 }
+
+/*Header styles*/
+header {
+    background-color: #141e29;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+header img {
+    width: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+nav ul {
+    padding: 30px;
+}
+
+nav li {
+    display: inline-block;
+}
