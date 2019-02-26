@@ -229,3 +229,25 @@ nav li {
     justify-content: center;
     align-items: center;
 }
+
+/* Support styles */
+#support p {
+    padding: 30px;
+    text-align: center;
+}
+
+/* #support div {
+    border: 5px solid #052d49;
+    border-radius: 10px;
+} */
+
+#support a {
+    color: #052d49;
+    border: 5px solid #052d49;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#support a:hover {
+    background: #fa7664;
+}
