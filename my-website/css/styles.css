@@ -81,6 +81,14 @@ section {
     margin: 40px 0;
 }
 
+.card {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-content: center;
+}
+
 /*Header styles */
 header {
     background-color: #141e29;
@@ -133,12 +141,7 @@ nav li {
 /* Projects styles */
 .project {
     width: 27%;
-    background-color: #f1f1f1;
-    border-radius: 10px;
-    padding: 20px;
-    display: flex;
     flex-flow: column wrap;
-    align-content: center;
     justify-content: space-around;
 }
 
@@ -162,3 +165,6 @@ nav li {
     text-align: justify;
     margin-bottom: 0;
 }
+
+/* Certifications styles */
+.certification {}
