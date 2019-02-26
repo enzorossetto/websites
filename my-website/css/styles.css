@@ -50,6 +50,16 @@ body {
     transition: 0.3s ease-in-out;
 }
 
+.link-background {
+    margin: 10px;
+}
+
+.link-background a {
+    background-color: #141e29;
+    border-radius: 10px;
+    padding: 10px;
+}
+
 section {
     margin-top: 80px;
     padding: 30px;
@@ -138,14 +148,4 @@ nav li {
 
 .project li {
     margin: 20px;
-}
-
-.more-projects {
-    margin: 10px;
-}
-
-.more-projects a {
-    background-color: #141e29;
-    border-radius: 10px;
-    padding: 10px;
 }
