@@ -190,7 +190,7 @@ nav li {
 }
 
 #certifications .link-background {
-    margin-top: 100px;
+    margin-top: 30px;
     padding: 20px;
 }
 
@@ -200,7 +200,7 @@ nav li {
 
 /* Learning styles */
 .studying {
-    width: 35%;
+    width: 25%;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
