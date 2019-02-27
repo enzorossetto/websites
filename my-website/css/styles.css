@@ -238,11 +238,17 @@ nav li {
     text-align: center;
 }
 
+#support div {
+    display: inline-block;
+}
+
 #support a {
     color: #052d49;
     border: 5px solid #052d49;
     border-radius: 10px;
     padding: 10px;
+    font-size: 110%;
+    font-weight: bolder;
 }
 
 #support a:hover {
