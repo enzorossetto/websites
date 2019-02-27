@@ -228,7 +228,8 @@ nav li {
 }
 
 /* Support styles */
-#support {
+
+/* #support {
     margin-top: 0;
     margin-bottom: 30px;
 }
@@ -253,7 +254,7 @@ nav li {
 
 #support a:hover {
     background: #fa7664;
-}
+} */
 
 /* Footer styles */
 footer {
