@@ -144,7 +144,7 @@ nav li {
 
 /* Projects styles */
 .project {
-    width: 27%;
+    width: 35%;
     flex-flow: column wrap;
     justify-content: space-around;
 }
