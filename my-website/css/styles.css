@@ -149,6 +149,14 @@ nav li {
     justify-content: space-around;
 }
 
+.project p .link-type-1 {
+    color: #000000;
+}
+
+.project p .link-type-1:hover {
+    color: #ffd700;
+}
+
 .project ul {
     margin: 20px;
 }
